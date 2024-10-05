@@ -39,7 +39,7 @@
                 <div class="icons">
                     <a href="https://www.linkedin.com/in/rahiqalmakhtum" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: white; background-color: black; padding: 8px;
                     border-radius: 50%;"></i></a>
-                    <i class="fa-brands fa-github fa-2x" style="margin-left: 10px ;"></i>
+                    <i class="fa-brands fa-github fa-2x" style="margin-left: 10px ; margin-bottom: 2px;"></i>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                         </div>   
                         <div class="bottom-right">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium voluptates deleniti consequuntur. A sunt, maxime quaerat incidunt rerum tempore doloremque voluptatem atque? Aspernatur minus nemo, non atque neque accusantium alias quia adipisci blanditiis voluptatibus quis esse et voluptatum vitae optio in fugit nulla. Deleniti ducimus necessitatibus impedit recusandae deserunt quam sapiente? Modi illum vel iusto ipsum, magni quis asperiores unde harum voluptate blanditiis! Hic neque animi tempore cupiditate dolorum vitae accusantium architecto commodi? Debitis ducimus repellat suscipit dolor blanditiis eligendi.
+                                I’m a final-year Computer Science student with a passion for MERN stack development and using technology to create positive change. I actively volunteer at the IEEE AIUB Student Branch and explore my creative side through photojournalism. Whether it’s coding, volunteering, or capturing stories through my lens, I’m dedicated to making an impact. I believe in the power of technology and storytelling to shape a better future and always seek opportunities to contribute meaningfully to the world.
                             </p>
                         </div>
                 </about>
@@ -240,11 +240,15 @@
                 <h1>Contact Me</h1>
             </div>
             <form action="#" class="form-container">
-                <label></label><br>
-                <input type="text" id="email" name="fname" value="example@gmail.com"><br>
-                <label></label><br>
-                <input type="text" id="mobile" name="lname" value="+880"><br><br>
-              </form> 
+                <input type="text" id="email" name="fname" value="example@gmail.com" 
+                       onfocus="if (this.value == 'example@gmail.com') {this.value='';}" 
+                       onblur="if (this.value == '') {this.value='example@gmail.com';}"><br>
+
+                <input type="text" id="mobile" name="lname" value="+880" 
+                       onfocus="if (this.value == '+880') {this.value='';}" 
+                       onblur="if (this.value == '') {this.value='+880';}"><br><br>
+              </form>
+              
         </div>
         <nav class="footer">
             <ul>
