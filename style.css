@@ -567,6 +567,12 @@ form {
     
     /*......Experience - start......*/
 
+    .experience {
+        height: 100vh;
+        width: 100%;
+        padding-top: 200px;
+    }
+
     .heading-exp{
         text-align: center;
     }
@@ -633,6 +639,7 @@ form {
     display: grid;
     grid-template-columns: repeat(1, 400px);
     gap: 50px;
+    margin: 0 80px;
     height: 450px;
     justify-content: center;
     align-items: center;
@@ -690,16 +697,16 @@ form {
 
 #email{
     border-radius: 30px;
-    padding: 20px 70px 20px 20px;
-    margin: 0;
+    padding: 20px 50px 20px 20px;
+    margin: auto;
     font-size: 22px;
     text-align: start;
 }
 
 #mobile {
     border-radius: 30px;
-    padding: 20px 70px 20px 20px;
-    margin: 0;
+    padding: 20px 50px 20px 20px;
+    margin: auto;
     font-size: 22px;
     text-align: start;
 }
